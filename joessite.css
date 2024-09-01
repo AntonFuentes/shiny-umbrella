@@ -2,6 +2,7 @@
 * {
   margin: auto;
   box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 body {
@@ -22,7 +23,7 @@ h2, h3, h4 {text-align: center;}
     background-image: linear-gradient(90deg, rgba(215, 0, 0, 0.5), rgba(215, 117, 117, 0.5) 80%);
     padding-bottom: 20px;
     border-radius: 16px 16px 0 0;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
 }
 
 .branding {
@@ -60,7 +61,13 @@ li {
 }
 
 .introduction {
-  background-image: linear-gradient(270deg, rgba(215, 0, 0, 0.5), rgba(215, 117, 117, 0.5) 80%)
+  /* background-image: linear-gradient(270deg, rgba(215, 0, 0, 0.5), rgba(215, 117, 117, 0.5) 80%); */
+  margin: 50px auto;
+}
+
+.introduction p, .introduction h2, .introduction h3 {
+  text-align: center;
+  color: rgba(215, 117, 117, 1);
 }
 
 .profile {
@@ -105,9 +112,10 @@ li {
 
 .art {
   position: relative;
-  margin: 50px auto;
+  margin: 0 auto;
   width: inherit;
   height: 500px;
+  padding: 50px auto 80px;
 }
 
 .art .container {
@@ -207,8 +215,8 @@ li {
 }
 
 footer {
-  margin: 50px auto 0;
-  background-image: linear-gradient(360deg, rgba(215, 0, 0, 0.5), rgba(215, 117, 117, 0.5) 80%)
+  margin: 20px auto 0;
+  /* background-image: linear-gradient(360deg, rgba(215, 0, 0, 0.5), rgba(215, 117, 117, 0.5) 80%) */
 }
 
 footer .container {
@@ -221,11 +229,16 @@ footer .container {
   padding-bottom: 20px;
 }
 
+footer p {
+  text-align: center;
+  color: rgba(215, 117, 117, 1);
+}
+
 footer .text {
   width: 300px;
   margin: 0 auto 25px;
   font-family: 'Courier New', Courier, monospace;
-  color: #666;
+  /* color: #666; */
 }
 
 footer .fine-print {
@@ -233,5 +246,5 @@ footer .fine-print {
   width: 300px;
   margin: 25px auto 0;
   font-family: 'Courier New', Courier, monospace;
-  color: #333;
+  /* color: #333; */
 }

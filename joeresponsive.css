@@ -1,0 +1,44 @@
+@media screen and (max-width: 1023px) {
+    body {
+        width: 768px;
+    }
+    
+    .the-navbar, .introduction, .art, .container {width: 768px;}
+    .profile-pic {
+        margin-left: 0;
+        margin: auto;
+        width: 250px;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    body {
+        width: 360px;
+    }
+    
+    .the-navbar, .introduction, .art, .container {width: 360px;}
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+
+    ul > .link.btn {margin: auto;}
+
+    .profile-pic {
+        margin-left: 0;
+        margin: auto;
+        width: 250px;
+    }
+
+    .profile-text {
+        text-align: center;
+        margin: auto;
+        width: 300px;
+    }
+    
+}

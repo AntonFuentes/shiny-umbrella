@@ -3,6 +3,7 @@
   margin: auto;
   box-sizing: border-box;
   font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
 }
 
 body {
@@ -47,6 +48,7 @@ h2, h3, h4 {text-align: center;}
   margin: 0 15px;
   font-family: 'Courier New', Courier, monospace;
   text-decoration: none;
+  font-size: 1.2em;
   color: #717171;}
 
 li {
@@ -67,8 +69,14 @@ li {
 
 .introduction p, .introduction h2, .introduction h3 {
   text-align: center;
-  color: rgba(215, 117, 117, 1);
+  color: #333;
 }
+
+.introduction h3 {font-size: 2em;}
+
+.introduction h4 {font-size: 1.75em;}
+
+.introduction p {font-size: 1.5em;}
 
 .profile {
   display: flex;
@@ -79,8 +87,8 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 250px;
-    width: 200px;
+    height: 300px;
+    width: 250px;
     margin-left: 150px;
 }
 
@@ -94,9 +102,16 @@ li {
 .profile-text {
     margin: auto auto auto 150px;
     display: flex;
-    width: 500px;
+    width: 450px;
     flex-direction: column;
     gap: 1em;
+    color: #333;
+}
+
+.walk-in-text {
+  text-decoration: none;
+  color: #333;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .profile-text h4, p {
@@ -231,20 +246,21 @@ footer .container {
 
 footer p {
   text-align: center;
-  color: rgba(215, 117, 117, 1);
+  font-size: 1.5em;
+  /* color: rgba(215, 117, 117, 1); */
 }
 
 footer .text {
   width: 300px;
   margin: 0 auto 25px;
   font-family: 'Courier New', Courier, monospace;
-  /* color: #666; */
+  color: #333;
 }
 
 footer .fine-print {
-  font-size: 12px;
+  font-size: 1.2em;
   width: 300px;
   margin: 25px auto 0;
   font-family: 'Courier New', Courier, monospace;
-  /* color: #333; */
+  color: #333;
 }
